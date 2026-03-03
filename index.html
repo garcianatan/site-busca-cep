@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Digite o cep desejado</h1>
+        <input type="text" id="cep" placeholder="Digite o cep (Ex: 12345678)">
+        <div id="btns">
+            <button class="btnBuscar" onclick="buscarCep()">Buscar</button>
+            <button class="btnLimpar" onclick="limparCampos()">Limpar</button>
+        </div>
+        
+
+        <p>CEP:  <span id="cepRetorno"></span> </p>
+        <p>Logradouro:  <span id="logradouro"></span></p>
+        <p>Bairro: <span id="bairro"></span></p>
+        <p>Cidade: <span id="cidade"></span></p>
+        <p>Estado: <span id="estado"></span></p>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
